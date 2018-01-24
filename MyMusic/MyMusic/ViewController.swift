@@ -54,7 +54,8 @@ var cymbalPlayer = AVAudioPlayer()
     soundPlayer(&backmusicPlayer, path:backmusicPath, count: -1)
     }
 
-    @IBAction func stop(_ sender: Any) {
+// Stopボタンがタップされた時の処理
+    @IBAction func stop(_ sender: AnyObject) {
 // バックミュージック停止
     backmusicPlayer.stop()
     }
